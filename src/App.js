@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+//import logo from './logo.svg';
+//import './App.css';
+//import EthPrice from './component/ethprice';
+//import BinanceEtherdata from './component/gettotaleth';
+import BinanceEth1 from './component/binance-eth1';
+
+//import AddEthereumAddress from './component/addAddress';
+import AddExchangeToMonitor from './component/AddExchangestomonitor';
+
+//import GetTotalEth from './component/gettotaleth';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+        
         </header>
+  
+        
+  <BinanceEth1/>
+        <AddExchangeToMonitor/>
       </div>
     );
   }
